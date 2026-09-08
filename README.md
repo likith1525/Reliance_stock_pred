@@ -47,4 +47,5 @@ An end-to-end time-series analysis and price trend exploration of stock price da
    ```bash
    git clone [https://github.com/likith1525/Reliance_stock_pred.git]
    
-2.Download all the required files and save them in a single folder & run them in the command prompt and enjoy your website.
+
+2. Download all the required files and save them in a single folder & run them in the command prompt and enjoy your website.
