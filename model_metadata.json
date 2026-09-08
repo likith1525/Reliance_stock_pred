@@ -1,0 +1,113 @@
+{
+  "trained_models": [
+    "Naive",
+    "Linear Regression",
+    "Random Forest",
+    "Random Forest (Tuned)",
+    "ARIMA",
+    "ARIMA (Tuned)",
+    "SARIMA",
+    "Holt-Winters",
+    "Gradient Boosting",
+    "XGBoost",
+    "XGBoost (Tuned)",
+    "SVR",
+    "LSTM",
+    "Prophet"
+  ],
+  "best_model": "Linear Regression",
+  "best_model_metrics": {
+    "RMSE": 5.259,
+    "MAE": 4.0081,
+    "MAPE": 1.0253
+  },
+  "leaderboard": [
+    {
+      "Model": "Linear Regression",
+      "RMSE": 5.259,
+      "MAE": 4.0081,
+      "MAPE": 1.0253
+    },
+    {
+      "Model": "Naive",
+      "RMSE": 7.0527,
+      "MAE": 5.3533,
+      "MAPE": 1.3616
+    },
+    {
+      "Model": "SVR",
+      "RMSE": 10.7057,
+      "MAE": 8.7004,
+      "MAPE": 2.155
+    },
+    {
+      "Model": "XGBoost",
+      "RMSE": 12.6126,
+      "MAE": 10.5396,
+      "MAPE": 2.7258
+    },
+    {
+      "Model": "XGBoost (Tuned)",
+      "RMSE": 15.0339,
+      "MAE": 13.4149,
+      "MAPE": 3.4851
+    },
+    {
+      "Model": "LSTM",
+      "RMSE": 17.3162,
+      "MAE": 14.3492,
+      "MAPE": 3.6804
+    },
+    {
+      "Model": "Gradient Boosting",
+      "RMSE": 19.3958,
+      "MAE": 17.7601,
+      "MAPE": 4.6506
+    },
+    {
+      "Model": "Random Forest",
+      "RMSE": 19.647,
+      "MAE": 17.6108,
+      "MAPE": 4.6312
+    },
+    {
+      "Model": "Random Forest (Tuned)",
+      "RMSE": 19.7339,
+      "MAE": 17.7482,
+      "MAPE": 4.6603
+    },
+    {
+      "Model": "ARIMA (Tuned)",
+      "RMSE": 52.0286,
+      "MAE": 46.5563,
+      "MAPE": 12.2857
+    },
+    {
+      "Model": "ARIMA",
+      "RMSE": 52.8687,
+      "MAE": 47.2867,
+      "MAPE": 12.4798
+    },
+    {
+      "Model": "Holt-Winters",
+      "RMSE": 58.7081,
+      "MAE": 52.1431,
+      "MAPE": 13.7774
+    },
+    {
+      "Model": "SARIMA",
+      "RMSE": 59.7326,
+      "MAE": 52.9355,
+      "MAPE": 13.9918
+    },
+    {
+      "Model": "Prophet",
+      "RMSE": 103.9902,
+      "MAE": 96.012,
+      "MAPE": 25.2033
+    }
+  ],
+  "saved_model_file": "reliance_forecast_model.pkl",
+  "requires_feature_scaler": false,
+  "generated_at": "2026-09-02 13:50:53"
+}
